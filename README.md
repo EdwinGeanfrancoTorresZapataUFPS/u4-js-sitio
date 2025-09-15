@@ -4,7 +4,7 @@ Proyecto de sitio web con JavaScript JS para la actividad Unidad 4 de Programaci
 
 Edwin Geanfranco Torres Zapata - 1152325
 
-El sitio web desplegado: 
+El sitio web desplegado: https://edwingeanfrancotorreszapataufps.github.io/u4-js-sitio/
 
 Estructura de carpetas
 
