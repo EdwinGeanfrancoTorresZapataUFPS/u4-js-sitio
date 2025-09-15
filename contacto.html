@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Mi Sitio Web</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="contacto">
+  <header>
+    <h1>Contacto</h1>
+    <div id="reloj"></div>
+    <nav>
+      <a href="index.html" data-page="inicio">Inicio</a>
+      <a href="acerca.html" data-page="acerca">Acerca</a>
+      <a href="servicios.html" data-page="servicios">Servicios</a>
+      <a href="contacto.html" data-page="contacto">Contacto</a>
+      <a href="funciones.html" data-page="funciones">Funciones</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Formulario de contacto</h2>
+    <form id="formContacto">
+      <input type="text" id="nombre" placeholder="Nombre">
+      <input type="email" id="email" placeholder="Correo">
+      <textarea id="mensaje" placeholder="Mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="errores"></div>
+    <div id="exito"></div>
+  </main>
+
+<footer>
+  <p>© 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
